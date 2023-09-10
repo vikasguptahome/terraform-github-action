@@ -10,7 +10,7 @@ terraform {
     }
     backend "azurerm" {
       resource_group_name = "demo-for-terraform-backendfile"
-      storage_account_name = "store-back-file"
+      storage_account_name = "store-backup-file"
       container_name = "tfstate"
       key = "demo.terraform.tfstate"
     }
